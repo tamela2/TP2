@@ -1,7 +1,9 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 10.00
-# Visual C++ Express 2008
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Questoes1e2", "Questoes1e2\Questoes1e2.vcproj", "{14A9F315-D856-4036-B88C-4EB7E9D752CC}"
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual C++ Express 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Questoes1e2", "Questoes1e2\Questoes1e2.vcxproj", "{14A9F315-D856-4036-B88C-4EB7E9D752CC}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Questao3", "Questao3\Questao3.vcxproj", "{21150FE3-105E-49D5-9908-AC63C2A11F25}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,6 +15,10 @@ Global
 		{14A9F315-D856-4036-B88C-4EB7E9D752CC}.Debug|Win32.Build.0 = Debug|Win32
 		{14A9F315-D856-4036-B88C-4EB7E9D752CC}.Release|Win32.ActiveCfg = Release|Win32
 		{14A9F315-D856-4036-B88C-4EB7E9D752CC}.Release|Win32.Build.0 = Release|Win32
+		{21150FE3-105E-49D5-9908-AC63C2A11F25}.Debug|Win32.ActiveCfg = Debug|Win32
+		{21150FE3-105E-49D5-9908-AC63C2A11F25}.Debug|Win32.Build.0 = Debug|Win32
+		{21150FE3-105E-49D5-9908-AC63C2A11F25}.Release|Win32.ActiveCfg = Release|Win32
+		{21150FE3-105E-49D5-9908-AC63C2A11F25}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -42,9 +42,9 @@ int main ()
 
 	unsigned int correspondencias = 0;
 
-	typedef std::vector <std::string> vetor_de_palavras;
+	typedef std::vector <std::string> VetorDePalavras;
 
-	vetor_de_palavras palavras;
+	VetorDePalavras palavras;
 
 	{
 		std::string temporaria = "";
@@ -84,7 +84,7 @@ int main ()
 
 	std::cout << std::endl << "Questao [2]. Este e o vetor de palavras encontradas no arquivo: " << std::endl;
 
-	for(vetor_de_palavras::iterator i = palavras.begin(); i != palavras.end(); ++i) {
+	for(VetorDePalavras::iterator i = palavras.begin(); i != palavras.end(); ++i) {
 		std::cout << *i << '\t';
 	}
 
