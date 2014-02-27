@@ -37,6 +37,12 @@ int main() {
 
 		std::cin >> opcao_escolhida;
 
+		if (opcao_escolhida == kSair) {
+			std::cout << std::endl << "Tchau!" << std::endl;
+			system("pause");
+			return EXIT_SUCCESS;
+		}
+
 		std::cout << std::endl << "Estas sao as variaveis atualmente criadas por voce: " << std::endl;
 
 		for(IteradorInteirosGigantes i = inteiros_gigantes.begin(); i != inteiros_gigantes.end(); ++i) {
@@ -46,7 +52,7 @@ int main() {
 
 		std::cout << std::endl;
 
-		if(opcao_escolhida == kLerInteiroGigante) {
+		if (opcao_escolhida == kLerInteiroGigante) {
 			
 			std::string nome_variavel, valor_variavel;
 
@@ -167,10 +173,6 @@ int main() {
 				std::cout << std::endl << nome_variavel1 << " e menor ou igual a " << nome_variavel2;
 			}
 
-		}
-
-		else if (kSair) {
-			std::cout << std::endl << "Tchau!" << std::endl;
 		}
 
 		else {

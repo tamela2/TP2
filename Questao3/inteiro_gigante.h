@@ -9,13 +9,12 @@ class InteiroGigante
 {
 private:
 	typedef unsigned int Indice;
-	Indice tamanho_;
-	/* vetor que armazena inteiros de tamanho arbitrário */
 	typedef short unsigned int NumeroInterno;
 	typedef std::vector<NumeroInterno> TipoVetor;
-	TipoVetor vetor_;
-	static Indice ContaDigitos(const int&);
+	Indice tamanho_;
+	TipoVetor vetor_; /* vetor que armazena inteiros de tamanho arbitrário */
 	inline static Indice InteiroGigante::ContaDigitos(std::string inteiro) { return inteiro.size(); }
+	static Indice ContaDigitos(const int&);
 	static TipoVetor ObterDigitos(const InteiroGigante&, const Indice& de, const Indice& quantidade);
 public:
 	inline const Indice tamanho(void) { return tamanho_; } /* acessor */
